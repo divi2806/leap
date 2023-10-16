@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void main() {
+    int rows = 5, i, j, k;
+
+
+    for (i = 1; i <= rows; i++) {
+        for (j = 1; j <= rows - i; j++) {
+            printf(" ");
+        }
+        printf("*");
+        for (k = 1; k <= 2 * i - 3; k++) {
+            if (i == rows) {
+                printf("*"); 
+            } else {
+                printf("-");
+            }
+        }        
+        if (i > 1) {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return;
+}
