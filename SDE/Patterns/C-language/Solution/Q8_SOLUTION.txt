@@ -1,0 +1,19 @@
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    for (int i = 65; i <=(65+n-1); i++){
+  for(int j=65;j<(65+(65+n-1)-i);j++){
+    printf("  ");
+  }
+  for(int k=65;k<=i;k++){
+    printf("%c ",k);
+  }
+
+    printf("\n");
+    }
+
+
+
+return 0;
+}
