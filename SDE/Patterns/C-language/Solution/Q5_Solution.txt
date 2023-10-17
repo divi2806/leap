@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main() {
+    int n=5;
+    int p= (2*n -1);
+   
+    for (int row = 1; row <= n; row++)   {
+        for ( int col=1; col <= p; col++)       {
+            if (row+col >= n+1 && col-row <= n-1 )   {
+                printf("*");
+            } else if (col-row >= n-1 ) {
+                printf(" ");
+            }             
+            else {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }  
+    return;
+}
