@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>About Us- LEAP</title>
+</head>
+<body>
+<header style=
+"background-color:navy;
+color:white;
+text-align: center;
+padding: 50px;">
+<h1><u>About Us</u></h1>
+</header>
+<center>
+<h2><u>Who Are We? </u></h2>
+<font size=4>
+<b>Welcome to Leap - where the extraordinary transforms into reality.
+</b>
+<p align=justify>
+Leap represents a unique social network with a primary goal of bridging the gap between incoming or new college aspirants and current students, as well as alumni of DTU. Our core objective is to facilitate meaningful interactions that foster mentorship, commitment, and a strong sense of dedication to the institution. 
+</p>
+<h2><u>Our Mission</u></h2>
+<p align=justify>
+Our Mission is to unite academia & campus life at Leap. Engage via vibrant social convo, enriching both education & student experience. 
+</p>
+<h2><u>Contact Us</u></h2>
+</center>
+Phone: 8851564164
+<br>
+Linkedin: <a href=https://www.linkedin.com/company/dtu-leap/>
+https://www.linkedin.com/company/dtu-leap/</a>
+<!--add the leap logo at bottom-->
+</font>
+</body>
+</html> 
